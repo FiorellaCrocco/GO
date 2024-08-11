@@ -40,3 +40,14 @@ func main() {
 
 	fmt.Println("Archivo guardado exitosamente")
 }
+
+/* RESUELTO POR EL PROFE */
+
+/*
+
+func main() {
+	head := []byte("id,precio,cantidad;\n10,800,10;\n12,1230,589;\n")
+	os.WriteFile("./data.csv", head, 0644)
+}
+
+*/
